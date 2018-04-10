@@ -61,8 +61,7 @@ function treatFileUpload(array $file) : int
     do {
         $newName = 'image' . uniqid() . hash('md5', $origName)
                      . '.' . substr($mimetype, 6);
-    } while (file_exists(DESTDIR . $newName)) {
-    }
+    } while (file_exists(DESTDIR . $newName));
 
     if (! move_uploaded_file($name, DESTDIR . $newName)) {
         return FU_SERVER;
