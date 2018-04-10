@@ -1,0 +1,56 @@
+
+body { margin: 2vw }
+
+h1, h4 { color: darkred }
+
+
+.hr1, .hr2 { margin: 1px }
+
+.hr1 { border-bottom: 2px solid darkred }
+.hr2 { border-bottom: 1px solid red }
+
+
+h5.modal-title {
+    color: darkred;
+}
+
+
+/* file entries */
+.card {
+    border: 1px solid darkred;
+    border-radius: 1rem;
+}
+
+.card-text > p {
+    margin: 0.2rem;
+}
+
+button.noButton {
+    background-color: inherit;
+    border: 1px solid darkred;
+    border-radius: 0.5rem;
+
+    max-width: 33%;
+}
+
+img.img-responsive {
+    max-width: 100%
+}
+
+/* error output */
+.error {
+    color: red;
+    font-style : italic;
+    margin: 1rem;
+}
+
+
+form {
+    margin: 1rem;
+}
+
+.norm {
+    color: darkred;
+    font-style: normal;
+}
+
